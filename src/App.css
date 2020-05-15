@@ -1,0 +1,128 @@
+*{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.Listmovies{
+  background-color: #191919;
+  text-align: center;
+  padding-top: 20px;
+}
+.Listmovies h2{
+  color: rgba(255, 0, 0, 0.705);
+  font-weight: 700;
+
+}
+ 
+.fa-search{
+  color: black;
+}
+.logo_movies{
+  padding-top: 5px;
+}
+.logo_movies h6{
+  color: silver;
+}
+.logo_movies img{
+  cursor :pointer;
+}
+.search-container{
+  padding-top: 20px;
+text-align: center;
+background-color: #191919;
+}
+.search-container input{
+width: 700px;
+height: 40px;
+  display:inline-block;
+  position: relative
+}
+.add-films{
+  margin-top: 50px;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:8px ;
+}
+.imgCar{
+  position: relative;
+width: 200px;
+height: 300px;
+
+}
+
+
+.options{
+  list-style: none;
+  cursor: pointer;
+  
+}
+.fa-heart{
+  position: absolute;
+
+  top: 14%;
+  left:7px;
+  color: red;
+  font-size: 32px;
+}
+.fa-times{
+  position: absolute;
+
+  top: 13%;
+  right: 7px;
+  color: red;
+  font-size: 35px;
+}
+.fa-keyboard{
+  position: absolute;
+
+  top: 67%;
+  right: 90px;
+  color: white;
+  font-size: 35px;
+
+}
+.imgCar:hover .options{
+  display: block;
+}
+.descF{
+  background-color:#191919;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.descF p{
+ width: 600px;
+  text-align: justify;
+  margin: 50px;
+}
+.descT{
+  margin-top: 30px;
+  text-align: center;
+  background-color: red;
+}
+.stars{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  background-color:#191919 ;
+  color: white;
+  cursor: pointer;
+}
+.fa-star:hover{
+  color: yellow;
+  border: none;
+}
+.fa-keyboard{
+  position: absolute;
+
+  top: 88%;
+  right: 95px;
+}

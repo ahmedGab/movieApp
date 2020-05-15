@@ -1,0 +1,23 @@
+
+
+img[alt="logoAppFilm"] {
+    width: 100px;
+
+
+}
+.a{
+  background-color: rgba(0, 0, 0, 0.877);
+}
+img[alt="welcome"] {
+  width: 400px;
+
+height: 50px;
+}
+.navlink{
+  text-decoration: none;
+  color: white;
+}
+.carousel-item > img { 
+  height: 600px; 
+
+ }
